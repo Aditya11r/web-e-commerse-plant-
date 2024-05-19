@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+    <div class="header">
+      <div class="logo"><img src="/New folder/images/E.png" /></div>
+      <div class="search">
+        <div class="srchplc">
+          <input
+            type="search"
+            data-search
+            class="product"
+            placeholder="search your product"
+          />
+        </div>
+        <div class="srcbutton">
+          <button>
+            <img
+              src="/New folder/images/searchicon.png"
+              alt=""
+              onclick="cal()"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="text">
+        <a
+          style="text-decoration: none; color: rgb(64, 162, 64)"
+          href="/New folder/tem/index.html"
+          ><div class="home">home</div></a
+        >
+        <a
+          style="text-decoration: none; color: rgb(64, 162, 64)"
+          href="item.html"
+          ><div class="home">item</div></a
+        >
+        <div class="home1"><button>log in</button></div>
+      </div>
+    </div>
+    <div class="loginpage">
+      <div class="login">
+        <div class="cross">
+          <img src="/New folder/images/cross.jpg" alt="" />
+        </div>
+        <div class="loghead"><h1>login</h1></div>
+        <div class="logemail">
+          <input type="email" placeholder="E-Mail" class="input1" />
+        </div>
+        <div class="logpass">
+          <input type="password" placeholder="Password" class="input2" />
+        </div>
+
+        <div class="checkbox">
+          <label><input type="checkbox" checked />Remeber me</label>
+          <a id="fp" href="https://myaccount.google.com/" target="_blank"
+            >forgot password?</a
+          >
+        </div>
+
+        <div class="logbutton">
+          <div class="createlink"><button>Create Account</button></div>
+          <div class="">
+            <button type="submit" onclick="cal1()">Login</button>
+          </div>
+        </div>
+      </div>
+      <div class="register">
+        <div class="cross2">
+          <img src="/New folder/images/cross.jpg" alt="" />
+        </div>
+        <div class="loghead"><h1>create account</h1></div>
+        <div class="logemail">
+          <input
+            type="Mobile Number"
+            placeholder="Mobile number"
+            class="input5"
+          />
+        </div>
+        <div class="logemail">
+          <input type="text" placeholder="Name" class="input6" />
+        </div>
+
+        <div class="logemail">
+          <input type="email" placeholder="E-Mail" class="input3" />
+        </div>
+        <div class="logpass">
+          <input type="password" placeholder="Password" class="input4" />
+        </div>
+        <div class="logbutton">
+          <label><input type="checkbox" />i agree to terms & conditions</label>
+          <div class="">
+            <button type="submit" onclick="cal2()">Create Account</button>
+          </div>
+        </div>
+        <div class="loginlink">
+          i already have an account? <span>log in</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <header>
+        <div class="title">PRODUCT LIST</div>
+        <div class="icon-cart">
+          <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 18 20"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+            />
+          </svg>
+          <span>0</span>
+        </div>
+      </header>
+      <div class="listProduct"></div>
+    </div>
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart"></div>
+      <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">Check Out</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

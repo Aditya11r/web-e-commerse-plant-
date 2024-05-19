@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": " AGLAONEMA",
+    "price": 350,
+    "image": "/New folder/show case plants/aglaonema.jpg"
+  },
+  {
+    "id": 2,
+    "name": " ARECA PALM",
+    "price": 500,
+    "image": "/New folder/show case plants/areca palm.jpg"
+  },
+  {
+    "id": 3,
+    "name": " CACTUS",
+    "price": 550,
+    "image": "/New folder/show case plants/CAKTUS.jpg"
+  },
+  {
+    "id": 4,
+    "name": " ADWARF UMBRELLA TREE",
+    "price": 250,
+    "image": "/New folder/show case plants/dwarf umbrella tree.jpg"
+  },
+  {
+    "id": 5,
+    "name": " SMALL PLANTS",
+    "price": 150,
+    "image": "New folder/show case plants/FLOWER.jpg"
+  },
+  {
+    "id": 6,
+    "name": "SHORT PLANTS",
+    "price": 200,
+    "image": "New folder/show case plants/FLOWER2.jpg"
+  },
+  {
+    "id": 7,
+    "name": " GARDEN CROTON",
+    "price": 250,
+    "image": "New folder/show case plants/garden croton.jpg"
+  },
+  {
+    "id": 8,
+    "name": " JUNGLE FLAMES",
+    "price": 200,
+    "image": "New folder/show case plants/jungle flame.jpg"
+  },
+  {
+    "id": 9,
+    "name": " MONEY PLANT",
+    "price": 250,
+    "image": "New folder/show case plants/money plant.jpg"
+  },
+  {
+    "id": 10,
+    "name": "MUEHLENBECKIA",
+    "price": 200,
+    "image": "New folder/show case plants/muehlenbeckia.jpg"
+  },
+  {
+    "id": 11,
+    "name": "PINE",
+    "price": 400,
+    "image": "New folder/show case plants/pine.jpg"
+  },
+  {
+    "id": 12,
+    "name": "SONG OF INDIA",
+    "price": 300,
+    "image": "New folder/show case plants/song of india.jpg"
+  },
+  {
+    "id": 13,
+    "name": "TI",
+    "price": 250,
+    "image": "New folder/show case plants/ti.jpg"
+  }
+]
